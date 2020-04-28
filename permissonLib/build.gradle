@@ -6,7 +6,7 @@ apply plugin: 'com.novoda.bintray-release'
 publish {
     userOrg = '520705bin'
     groupId = 'com.jsnow.permissionx'
-    artifactId = 'bintray-release'
+    artifactId = 'permissionx'
     publishVersion = '1.0.0'
     desc = 'Make Android runtime permission requst easy.'
     website = 'https://github.com/jsnow0613/PermissionX'

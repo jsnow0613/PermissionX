@@ -6,7 +6,7 @@ PermissionX是一个用于简化运行时权限用法的开源库。是学习郭
 ```groovy
 dependencies {
     ...
-    implementation 'com.jsnow.permissionx:bintray-release:1.0.0'
+    implementation 'com.jsnow.permissionx:permissionx:1.0.0'
 }
 ```
 
