@@ -3,16 +3,16 @@ PermissionX是一个用于简化运行时权限用法的开源库。是学习郭
 
 ## 配置
 添加如下配置将PermissionX引入到你的项目当中
-、、、groovy
+```groovy
 dependencies {
     ...
     implementation 'com.jsnow.permissionx:bintray-release:1.0.0'
 }
-、、、
+```
 
 
 ## 使用
-、、、kotlin
+```kotlin
     PermissionX.request(this,
     android.Manifest.permission.CALL_PHONE){
         allGranted,deniedList ->
@@ -22,4 +22,4 @@ dependencies {
             Toast.makeText(this,"you denied $deniedList",Toast.LENGTH_SHORT).show()
         }
     }
-、、、
+```
